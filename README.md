@@ -1,5 +1,3 @@
-# hugging_face_demo2
-
 ---
 title: Demo2
 emoji: 📚
