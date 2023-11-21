@@ -17,9 +17,9 @@ jobs:
       env:
         HF: ${{ secrets.HUGGING_FACE }}
       run: |
-        git remote add space https://huggingface.co/spaces/babaJaguska/demo2
+        git remote add space https://babaJaguska:$HF@huggingface.co/spaces/babaJaguska/demo2
     - name: Push to hub
       env:
         HF: ${{ secrets.HUGGING_FACE }}
       run: |
-        git push --force https://babaJaguska:${HUGGING_FACE}huggingface.co/spaces/babaJaguska/demo2 master
+        git push --force https://babaJaguska:$HF@huggingface.co/spaces/babaJaguska/demo2 master
