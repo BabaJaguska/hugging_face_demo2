@@ -22,4 +22,4 @@ jobs:
       env:
         HF: ${{ secrets.HUGGING_FACE }}
       run: |
-        git push --force https://babaJaguska:${HUGING_FACE}huggingface.co/spaces/babaJaguska/demo2 master
+        git push --force https://babaJaguska:${HUGGING_FACE}huggingface.co/spaces/babaJaguska/demo2 main
